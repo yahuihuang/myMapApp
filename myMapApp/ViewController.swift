@@ -12,8 +12,15 @@ import MapKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var mymap: MKMapView!
+    var locationMgr:CLLocationManager! = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //取得位置
+        locationMgr = CLLocationManager()
+        locationMgr.requestWhenInUseAuthorization()
+        
         mymap.isScrollEnabled = true
         mymap.isZoomEnabled = true
         mymap.isRotateEnabled = false
