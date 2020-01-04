@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  myMapApp
+//  helloMAP
 //
-//  Created by grace on 2020/1/4.
-//  Copyright © 2020 grace. All rights reserved.
+//  Created by 申潤五 on 2019/12/28.
+//  Copyright © 2019 申潤五. All rights reserved.
 //
 
 import UIKit
